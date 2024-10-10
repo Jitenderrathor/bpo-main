@@ -107,29 +107,32 @@ $("#case-study-project").load("case-study-project.html"); */
 		autoplayTimeout: 5000,
 	});
 
-	// Team Slides
 	$('.team-slides').owlCarousel({
-		loop: true,
-		nav: false,
-		dots: true,
+		dots:false,
+		lazyLoad: true,
 		autoplayHoverPause: true,
-		autoplay: false,
-		margin: 30,
+		autoplay: true,
+		smartSpeed: 1000,
+		autoplayTimeout: 5000,
+		loop: true,
+		margin: 10,
+		nav:false,
+		responsiveClass: true,
 		responsive: {
-			0: {
-				items: 1
-			},
-			576: {
-				items: 2
-			},
-			768: {
-				items: 2
+			1500: {
+				items: 4,
 			},
 			992: {
-				items: 3
+				items: 3,
 			},
-			1500: {
-				items: 4
+			768: {
+				items: 2,
+			},
+			576: {
+				items: 2,
+			},
+			0: {
+				items: 1,
 			}
 		}
 	});
