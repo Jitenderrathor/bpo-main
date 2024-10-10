@@ -110,10 +110,10 @@ $("#case-study-project").load("case-study-project.html"); */
 	$('.team-slides').owlCarousel({
 		dots:false,
 		lazyLoad: true,
-		autoplayHoverPause: true,
-		autoplay: true,
+		// autoplayHoverPause: true,
+		// autoplay: true,
 		smartSpeed: 1000,
-		autoplayTimeout: 5000,
+		// autoplayTimeout: 5000,
 		loop: true,
 		margin: 10,
 		nav:false,
