@@ -137,10 +137,10 @@
     margin-bottom: 15px;
   }
   .why-choose-us-image img {
-    display: none;
+    /* display: none; */
   }
   .why-choose-us-image img:last-child {
-    display: inline-block;
+    display: none;
   }
   .single-why-choose-us {
     margin-top: 30px !important;
@@ -1797,7 +1797,7 @@
     margin-bottom: 65px;
   }
   .why-choose-us-image img {
-    display: none;
+    /* display: none; */
   }
   .why-choose-us-image img:nth-child(3) {
     display: block;
