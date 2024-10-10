@@ -442,10 +442,10 @@ $("#case-study-project").load("case-study-project.html"); */
 
 	// Isotop Js
 	var $grid = $('.projects-items').isotope({
-		itemSelector: '.grid-item',
+		itemSelector: '.grid-item-cus',
 		percentPosition: true,
 		masonry: {
-			columnWidth: '.grid-item'
+			columnWidth: '.grid-item-cus'
 		}
 	});
 

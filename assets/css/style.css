@@ -10285,7 +10285,7 @@ Our Latest Projects CSS
 }
 
 .projects-items .single-latest-projects {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   position: relative;
 }
 
@@ -11010,7 +11010,7 @@ Auth Area CSS
 }
 .event-grid {
   display: grid;
-  grid-gap: 8px;
+  /* grid-gap: 8px !important; */
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 30vw;
   list-style: none;
@@ -11027,7 +11027,9 @@ Auth Area CSS
   width: 100%;
   height: 100%;
 }
-
+.grid-item-cus{
+  padding: 10px 10px;
+}
 .event-grid img {
   object-fit: cover;
   background: #f5f3f4;
