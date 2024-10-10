@@ -109,9 +109,8 @@ $("#case-study-project").load("case-study-project.html"); */
 
 	$('.team-slides').owlCarousel({
 		dots:false,
+		
 		lazyLoad: true,
-		// autoplayHoverPause: true,
-		// autoplay: true,
 		smartSpeed: 1000,
 		// autoplayTimeout: 5000,
 		loop: true,
@@ -130,9 +129,15 @@ $("#case-study-project").load("case-study-project.html"); */
 			},
 			576: {
 				items: 2,
+				autoplayHoverPause: true,
+				autoplay: true,
+				dots:true
 			},
 			0: {
 				items: 1,
+				autoplayHoverPause: true,
+				autoplay: true,
+				dots:true
 			}
 		}
 	});
