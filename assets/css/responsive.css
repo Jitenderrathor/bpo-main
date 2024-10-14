@@ -1803,7 +1803,7 @@
     display: block;
   }
   .why-choose-us-image img:last-child {
-    display: block;
+    display: none;
     right: 0;
     left: 0;
     margin: 0 auto;
