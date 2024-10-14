@@ -287,7 +287,7 @@ p:last-child {
   width: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: #c679e3;
+  background: #1c4e69;
   z-index: -1;
 }
 
@@ -321,12 +321,12 @@ p:last-child {
 
 .btn.btn-secondary::before {
   border-radius: 0;
-  background: #c679e3;
+  background: #1c4e69;
 }
 
 .btn.btn-secondary::after {
   border-radius: 0;
-  background: #c679e3;
+  background: #1c4e69;
 }
 
 .btn.btn-secondary:not(:disabled):not(.disabled).active, .btn.btn-secondary:not(:disabled):not(.disabled):active, .show > .btn.btn-secondary.dropdown-toggle {
@@ -441,8 +441,9 @@ label {
 
 .section-title .sub-title {
   display: inline-block;
-  color: #c679e3;
-  background-color: #f5dffd;
+  color: #1c4e69;
+  /* background-color: #f5dffd; */
+  background-color: #1c4e6921;
   margin-bottom: 18px;
   border-radius: 30px;
   padding: 5px 20px 4px;
@@ -758,7 +759,7 @@ Navbar CSS
 }
 
 .startp-nav nav .others-option .btn.btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -892,7 +893,7 @@ Navbar CSS
 }
 
 .others-option-for-responsive .option-inner .others-option .btn.btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
   padding: 13px 23px;
@@ -917,7 +918,7 @@ Navbar CSS
 }
 
 .navbar-color-white .startp-nav nav .others-option .btn.btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -1580,12 +1581,12 @@ Boxes CSS
   background: rgba(247, 138, 203, 0.3);
 }
 
-.single-box.bg-c679e3 {
+.single-box.bg#1c4e69 {
   border-color: #edc3fc;
 }
 
-.single-box.bg-c679e3 .icon {
-  color: #c679e3;
+.single-box.bg#1c4e69 .icon {
+  color: #1c4e69;
   background: #edc3fc;
 }
 
@@ -1622,8 +1623,8 @@ Boxes CSS
   color: #f78acb;
 }
 
-.single-box:hover.bg-c679e3 .icon {
-  color: #c679e3;
+.single-box:hover.bg#1c4e69 .icon {
+  color: #1c4e69;
 }
 
 .single-box:hover.bg-eb6b3d .icon {
@@ -2106,8 +2107,8 @@ Services CSS
   transition: 0.5s;
 }
 
-.single-services-box .icon.bg-c679e3 {
-  color: #c679e3;
+.single-services-box .icon.bg#1c4e69 {
+  color: #1c4e69;
   background: #edc3fc;
 }
 
@@ -2149,8 +2150,8 @@ Services CSS
   color: #ffffff;
 }
 
-.single-services-box:hover .icon.bg-c679e3 {
-  background: #c679e3;
+.single-services-box:hover .icon.bg#1c4e69 {
+  background: #1c4e69;
 }
 
 .single-services-box:hover .icon.bg-eb6b3d {
@@ -2401,8 +2402,8 @@ Features CSS
   transition: 0.5s;
 }
 
-.single-features .icon.bg-c679e3 {
-  color: #c679e3;
+.single-features .icon.bg#1c4e69 {
+  color: #1c4e69;
   background: #edc3fc;
 }
 
@@ -2423,8 +2424,8 @@ Features CSS
   color: #ffffff;
 }
 
-.single-features:hover .icon.bg-c679e3 {
-  background: #c679e3;
+.single-features:hover .icon.bg#1c4e69 {
+  background: #1c4e69;
 }
 
 .single-features:hover .icon.bg-eb6b3d {
@@ -2468,8 +2469,8 @@ Features CSS
   transition: 0.5s;
 }
 
-.single-hosting-features .icon.bg-c679e3 {
-  color: #c679e3;
+.single-hosting-features .icon.bg#1c4e69 {
+  color: #1c4e69;
   background: #edc3fc;
 }
 
@@ -2511,8 +2512,8 @@ Features CSS
   color: #ffffff;
 }
 
-.single-hosting-features:hover .icon.bg-c679e3 {
-  background: #c679e3;
+.single-hosting-features:hover .icon.bg#1c4e69 {
+  background: #1c4e69;
 }
 
 .single-hosting-features:hover .icon.bg-eb6b3d {
@@ -2708,7 +2709,7 @@ Team CSS
 }
 
 .single-team .team-content ul li a {
-  color: #c679e3;
+  color: #1c4e69;
 }
 
 .single-team .team-content ul li a:hover {
@@ -2930,7 +2931,7 @@ Fun Facts CSS
 }
 
 .contact-cta-box .btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -3118,7 +3119,7 @@ Pricing CSS
 }
 
 .pricing-table.active-plan .btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -3195,7 +3196,7 @@ Pricing CSS
 }
 
 .single-pricing-table.active-plan .btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -3444,7 +3445,7 @@ Domain Search CSS
 }
 
 .domain-search-content form button:hover, .domain-search-content form button:focus {
-  background-color: #c679e3;
+  background-color: #1c4e69;
 }
 
 .domain-search-content ul {
@@ -3522,7 +3523,7 @@ Feedback CSS
   display: block;
   margin-top: 8px;
   margin-bottom: 18px;
-  color: #c679e3;
+  color: #1c4e69;
 }
 
 .feedback-slides .client-feedback .single-feedback p {
@@ -3736,7 +3737,7 @@ Feedback CSS
 .single-feedback-item .client-info .title span {
   display: block;
   margin-top: 8px;
-  color: #c679e3;
+  color: #1c4e69;
 }
 
 .single-feedback-item p {
@@ -3920,7 +3921,7 @@ Ready To Talk CSS
 }
 
 .ready-to-talk .btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 5px 20px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 5px 20px 0 rgba(198, 121, 227, 0.25);
 }
@@ -4063,13 +4064,13 @@ Big Data Analytics Banner CSS
 }
 
 .col-lg-4:nth-child(3) .single-banner-boxes .icon {
-  color: #c679e3;
+  color: #1c4e69;
   background: #edc3fc;
 }
 
 .col-lg-4:nth-child(3) .single-banner-boxes:hover .icon {
   background-color: #ffffff;
-  color: #c679e3;
+  color: #1c4e69;
 }
 
 /*=============================
@@ -5046,7 +5047,7 @@ Shop CSS
 }
 
 #productsModalCenter .modal-content .products-content form button:hover, #productsModalCenter .modal-content .products-content form button:focus {
-  background-color: #c679e3;
+  background-color: #1c4e69;
   color: #ffffff;
 }
 
@@ -5221,7 +5222,7 @@ Shop Details CSS
 }
 
 .products-details form button:hover, .products-details form button:focus {
-  background-color: #c679e3;
+  background-color: #1c4e69;
   color: #ffffff;
 }
 
@@ -5243,9 +5244,9 @@ Shop Details CSS
 }
 
 .products-details form .add-to-wishlist-btn:hover, .products-details form .add-to-wishlist-btn:focus {
-  background-color: #c679e3;
+  background-color: #1c4e69;
   color: #ffffff;
-  border-color: #c679e3;
+  border-color: #1c4e69;
 }
 
 .products-details form .buy-btn {
@@ -5253,7 +5254,7 @@ Shop Details CSS
 }
 
 .products-details form .buy-btn .btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -6151,7 +6152,7 @@ Blog Details CSS
 }
 
 .blog-details-desc .article-content .entry-meta ul li svg {
-  color: #c679e3;
+  color: #1c4e69;
   margin-right: 2px;
   position: relative;
   top: -1px;
@@ -6243,7 +6244,7 @@ Blog Details CSS
 .blog-details-desc .article-footer .article-tags a {
   display: inline-block;
   color: #ffffff;
-  background-color: #c679e3;
+  background-color: #1c4e69;
   padding: 4px 12px;
   border-radius: 5px;
   margin-right: 3px;
@@ -6472,7 +6473,7 @@ Blog Details CSS
 
 .comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
-  background-color: #c679e3;
+  background-color: #1c4e69;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
@@ -6831,7 +6832,7 @@ Sidebar Widget CSS
 }
 
 .widget-area .widget_search form button:hover {
-  background-color: #c679e3;
+  background-color: #1c4e69;
   color: #ffffff;
 }
 
@@ -7450,7 +7451,7 @@ Coming Soon CSS
 }
 
 .coming-soon-content form .submit-btn:hover, .coming-soon-content form .submit-btn:focus {
-  background-color: #c679e3;
+  background-color: #1c4e69;
 }
 
 .coming-soon-content #timer div {
@@ -7459,7 +7460,7 @@ Coming Soon CSS
   border-radius: 50%;
   width: 110px;
   height: 110px;
-  color: #c679e3;
+  color: #1c4e69;
   -webkit-box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.5);
           box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.5);
   margin: 0 10px;
@@ -7565,7 +7566,7 @@ CTA CSS
 }
 
 .cta-right-content .buy-btn .btn-primary {
-  background: #c679e3;
+  background: #1c4e69;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
@@ -8182,7 +8183,7 @@ Repair Feedback CSS
 
 .single-repair-feedback .client-img span {
   display: block;
-  color: #c679e3;
+  color: #1c4e69;
   margin-top: 8px;
 }
 
@@ -8938,8 +8939,8 @@ ML About CSS
 
 .ml-about-content .sub-title {
   display: inline-block;
-  color: #c679e3;
-  background-color: #f5dffd;
+  color: #1c4e69;
+  background-color: #1c4e6921;
   margin-bottom: 18px;
   border-radius: 30px;
   padding: 5px 20px 4px;
@@ -9094,7 +9095,7 @@ ML Feedback CSS
 
 .single-ml-feedback-item .client-info span {
   display: block;
-  color: #c679e3;
+  color: #1c4e69;
   margin-top: 5px;
   font-size: 13px;
 }
@@ -9302,7 +9303,7 @@ Free Trial CSS
 }
 
 .free-trial-content form button:hover {
-  background-color: #c679e3;
+  background-color: #1c4e69;
   color: #ffffff;
 }
 
@@ -9552,7 +9553,7 @@ ML Projects CSS
 }
 
 .single-ml-projects-box .plus-icon a:hover {
-  background-color: #c679e3;
+  background-color: #1c4e69;
 }
 
 .single-ml-projects-box:hover .plus-icon a {
@@ -9780,8 +9781,8 @@ Agency About CSS
 
 .agency-about-content .sub-title {
   display: inline-block;
-  color: #c679e3;
-  background-color: #f5dffd;
+  color: #1c4e69;
+  background-color: #1c4e6921;
   margin-bottom: 18px;
   border-radius: 30px;
   padding: 5px 20px 4px;
@@ -9982,7 +9983,7 @@ Testimonials CSS
 
 .single-testimonials-item .client-info span {
   display: block;
-  color: #c679e3;
+  color: #1c4e69;
   margin-top: 5px;
   font-size: 13px;
 }
@@ -10659,7 +10660,7 @@ Go Top CSS
   bottom: 30px;
   right: 0;
   color: #ffffff;
-  background-color: #c679e3;
+  background-color: #1c4e69;
   z-index: 1;
   display: none;
   width: 45px;
